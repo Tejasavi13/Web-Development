@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5 Intro to CSS</title>
+    <style>
+        p{
+            color:rgba(94,135,288,0.956)
+        }
+        .p4{
+            color: blueviolet;
+        }
+        #p4{
+            color: purple;
+        }
+        .box{
+            height: 300px;
+            width: 300px;
+            border-width: 4px;
+            /* border-style: groove;
+            border-color: blue;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px; */
+            /* Shorthand */
+            border:4px solid chocolate;
+            border-radius:10px 20px 30px 40px;
+            /* border-right:none */
+            /* Margin clockwise  */
+            margin: 100px 0px 0px 300px;
+            /* Padding */
+            padding-top:40px;
+            padding-left:30px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <!--CSS: Cascading Style Sheets
+    Structure--modify--designing
+    Three types of CSS
+    Inline CSS
+    Internal CSS
+    External CSS
+    
+    three types of selectors
+    Tag selector
+    id-identity
+    class-12th sections
+
+Three ways to apply color property
+color name
+rgb(red green blue)
+rgba(red green blue alpha)
+alpha for making it light or dark
+max value for alpha is 0.9 and lowest is 0.1
+Highest value for rgb is 288
+    -->
+    <p style="color: red;">hello</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores?
+    </p>
+    <p class="p4" id="p4" style="color: chartreuse;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores?
+    </p>
+
+    <!--Border property=Margin, padding
+    Border style: solid, dotted , dashed , groove-->
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas praesentium deleniti dolor laboriosam! Sapiente, recusandae! Facere ipsa magni inventore aperiam corrupti commodi? Quam obcaecati qui praesentium eos deserunt!</div>
+
+</body>
+</html>
+<!-- Example1
+6 boxes, style different border and color also different
+example2
+3 boxes , 1 big box
+e3
+e4
+e5
+e6
+e7
+-->
