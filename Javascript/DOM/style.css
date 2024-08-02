@@ -1,0 +1,31 @@
+body{
+    background-color: aqua;
+}
+.container{
+    background-color: bisque;
+}
+h1{
+    color: darkblue;
+    text-align: center;
+    
+}
+p{
+    font-size: 16px;
+    text-align: justify;
+
+}
+toggle-button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 16px;
+    border-radius: 2px;
+    background-color: brown;
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    background-image: url('https://images.pexels.com/photos/1326947/pexels-photo-1326947.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-size: cover;
+}
